@@ -1,37 +1,44 @@
 body {
-   background-color: gainsboro;
+    background-color: gainsboro;
 }
+
 #image_div {
-display: flex;
-justify-content: center;
+    display: flex;
+    justify-content: center;
 }
+
 #album {
     height: 20rem;
     width: 50rem;
     border: 5px;
     border-radius: 10px;
     box-shadow: 3px 3px;
- }
- #cast {
+}
+
+#cast {
     width: 60%;
     margin-top: 10px;
     margin-left: 250px;
     display: flex;
     justify-content: flex-start;
-    font-size:17px;
- }
- a {
+    font-size: 17px;
+}
+
+a {
     text-decoration: none;
- }
- a:hover {
+}
+
+a:hover {
     text-decoration: underline;
- }
- p {
+}
+
+p {
     width: 59%;
     margin-left: 285px;
-    /* font-family: 'Times New Roman', Times, serif; */
+
     font-size: 17px;
- }
+}
+
 #first {
     list-style-type: none;
     font-size: 25px;
@@ -40,21 +47,21 @@ justify-content: center;
     text-align: left;
     margin-left: -18px;
 }
+
 #second {
     margin-bottom: 15px;
     font-size: 25px;
 }
+
 #story {
     margin-top: -30px;
     margin-left: -10px;
 }
+
 #para {
     margin-top: -10px;
 }
+
 hr {
     width: 90%;
 }
-/* .minilist {
-    display: flex;
-    justify-content: flex-start;
-} */
