@@ -17,10 +17,23 @@ body {
 }
 
 #cast {
-    width: 80%;
+    padding-right: 17rem;
     font-size: 17px;
     display: flex;
     justify-content: center;
+
+}
+
+#kithakithalu {
+    padding-right: 6rem;
+}
+
+#Anji {
+    padding-right: 2.5rem;
+}
+
+#Aparichitudu {
+    padding-right: 3rem;
 }
 
 a {
@@ -29,12 +42,6 @@ a {
 
 a:hover {
     text-decoration: underline;
-}
-
-p {
-    width: 59%;
-    margin-left: 285px;
-    font-size: 17px;
 }
 
 #first {
@@ -46,19 +53,20 @@ p {
     margin-left: -18px;
 }
 
+#story {
+    width: 60%;
+    margin-left: 17rem;
+    font-size: 17px;
+}
+
 #second {
     margin-bottom: 15px;
     font-size: 25px;
 }
 
-#story {
-    margin-top: 0;
-    margin-left: 0;
-
-}
-
 #para {
     margin-top: 0px;
+    font-size: 17px;
 }
 
 hr {
