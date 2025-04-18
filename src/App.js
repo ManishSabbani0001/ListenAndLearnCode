@@ -1,5 +1,4 @@
 import React from 'react';
-// import movieAlbum from './Assets/img11.avif'
 import './App.css';
 
 function moviesList() {
