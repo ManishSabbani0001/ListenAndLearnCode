@@ -17,7 +17,7 @@
   #icon {
    height: 30px;
    margin-right: 20px;
-   width: 25px;
+   width: 30px;
   }
   #head {
     margin: 0;
@@ -79,9 +79,9 @@
   }
   #icon1 {
     margin-top: 8px;
-    margin-left: 80px;
+    margin-left: 30px;
    height: 30px;
-   width: 250px; 
+   width: 10px; 
   }
   #profile1 {
     width: 100%;
