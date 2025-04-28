@@ -88,7 +88,7 @@ function App() {
             <BsThreeDotsVertical id="icon1"/>
           </div>
           <div>
-           <img src={logo11} alt="imgpic1" id="profile"></img>
+           <img src={logo11} alt="imgpic1" id="profile1"></img>
           </div>
           <div className="threeIcons">
           <FaRegHeart id="heartIcon" /><p id="likes">100</p>
