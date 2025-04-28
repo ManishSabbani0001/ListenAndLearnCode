@@ -85,9 +85,9 @@
    width: 7%;
    margin-left: 41%; 
   }
-  /* #profile1 {
-    width: 100%;
-  } */
+  #profile1 {
+    width: 90%;
+  }
   .threeIcons {
     display: flex;
     justify-content: flex-start;
