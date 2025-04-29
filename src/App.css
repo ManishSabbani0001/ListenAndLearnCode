@@ -29,20 +29,20 @@
     display: flex;
     justify-content: flex-start;
     overflow: scroll;
-    height: 90px;
+    height: 100px;
   }
   .div-status {
     margin-top: 5px;
     margin-left: 5px;
-    height: 100px;
-    width: 104px;
+    height: 80px;
+    width: 84px;
     border: 2px solid black;
     border-radius: 50%;
   }
   #status {
     margin: 0;
-    height: 100px;
-    width: 104px;
+    height: 80px;
+    width: 84px;
     /* border: 1px solid black; */
     border-radius: 50%;
   }
