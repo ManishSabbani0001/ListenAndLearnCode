@@ -6,11 +6,11 @@
     display: flex;
     justify-content: space-between;
     height: 30px;
-    width: 80%;
+    width: 100%;
     /* border: 2px solid black; */
   }
   #loveSymbol {
-    margin-left: 35%;
+    margin-left: 30%;
     height: 30px;
    width: 30px;
   }
@@ -78,7 +78,7 @@
   }
   #icon1 {
     margin-top: 8px;
-    margin-left: 100px;
+    margin-left: 50px;
    height: 30px;
    width: 50px; 
   }
