@@ -36,9 +36,10 @@
     margin-left: 5px;
     height: 80px;
     width: 84px;
-    border: 2px solid solid transparent;
-    border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
-    border-image-slice: 1;
+    border-top: #f9ce34;
+    border-left: #ee2a7b;
+    border-right: #ee2a7b;
+    border-bottom: #6228d7;
     border-radius: 50%;
   }
   #status {
