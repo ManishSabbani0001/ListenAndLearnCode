@@ -29,14 +29,16 @@
     display: flex;
     justify-content: flex-start;
     overflow: scroll;
-    height: 130px;
+    height: 110px;
   }
   .div-status {
     margin-top: 5px;
     margin-left: 5px;
     height: 80px;
     width: 84px;
-    border: 2px solid black;
+    border: 2px solid solid transparent;
+    border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+    border-image-slice: 1;
     border-radius: 50%;
   }
   #status {
@@ -157,6 +159,7 @@
   .bottomPage {
     left: 0;
     bottom: 0;
+    height: 40px;
     width: 100%;
     display: flex;
     justify-content: space-around;
