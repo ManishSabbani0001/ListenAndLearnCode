@@ -29,7 +29,7 @@
     display: flex;
     justify-content: flex-start;
     overflow: scroll;
-    height: 200px;
+    height: 130px;
   }
   .div-status {
     margin-top: 5px;
