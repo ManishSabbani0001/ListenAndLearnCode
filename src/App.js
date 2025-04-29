@@ -26,8 +26,10 @@ function App() {
       <div>
       <header className="App-header">
         <p id='head'>Instagram</p>
+        <div className="headerView">
         <FaRegHeart id='loveSymbol'/>
         <RiMessengerLine id='icon'/>
+        </div>
         </header>
         <div className="status-Container">
           <div className="mainStatus">
@@ -62,19 +64,25 @@ function App() {
             </div>
           </div>
           <div className="Mini-container">
+            <div id="profileText">
             <div id="div-img">
             <img src={logo1} alt="imgpic" id='profile'></img></div>
-            <p id="txt">Sabbani Manish</p>
+            <p id="txt">Sabbani Manish</p></div>
+            <div id="ThreeDotsIcon">
             <BsThreeDotsVertical id="icon1"/>
+            </div>
           </div>
           <div>
            <img src={logo2} alt="imgpic1" id="profile1"></img>
           </div>
           <div className="threeIcons">
+          <div className="iconsOfthree">
           <FaRegHeart id="heartIcon" /><p id="likes">7,002</p>
           <BiMessageRounded id="msgIcon" /><p id="msgs">49</p>
-          <LuSend id="sendIcon"/><p id="msgs">20</p>
+          <LuSend id="sendIcon"/><p id="msgs">20</p></div>
+          <div className="rightIcon">
           <FaRegBookmark id="bookmark"/>
+          </div>
           </div>
           <div className="footer">
             <img src={logo10} alt="imgpic" id='userPic'></img>
@@ -91,10 +99,13 @@ function App() {
            <img src={logo11} alt="imgpic1" id="profile1"></img>
           </div>
           <div className="threeIcons">
+          <div className="iconsOfthree">
           <FaRegHeart id="heartIcon" /><p id="likes">100</p>
           <BiMessageRounded id="msgIcon" /><p id="msgs">15</p>
-          <LuSend id="sendIcon"/><p id="msgs">10</p>
+          <LuSend id="sendIcon"/><p id="msgs">10</p></div>
+          <div className="rightIcon">
           <FaRegBookmark id="bookmark"/>
+          </div>
           </div>
           <div className="footer">
             <img src={logo12} alt="imgpic" id='userPic'></img>
@@ -111,10 +122,13 @@ function App() {
            <img src={logo9} alt="imgpic1" id="profile1"></img>
           </div>
           <div className="threeIcons">
+            <div className="iconsOfthree">
           <FaRegHeart id="heartIcon" /><p id="likes">150</p>
           <BiMessageRounded id="msgIcon" /><p id="msgs">50</p>
-          <LuSend id="sendIcon"/><p id="msgs">30</p>
+          <LuSend id="sendIcon"/><p id="msgs">30</p></div>
+          <div className="rightIcon">
           <FaRegBookmark id="bookmark"/>
+          </div>
           </div>
           <div className="footer">
             <img src={logo12} alt="imgpic" id='userPic'></img>
@@ -129,6 +143,7 @@ function App() {
             <img src = {logo3} alt="statusPic" id="btmPic"></img>
             </div>
         </div>
+        
         
   );
 }
