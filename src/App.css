@@ -98,10 +98,12 @@
     width: 100%;
   }
   .threeIcons {
+    margin-left: 0;
     display: flex;
     justify-content: space-between;
   }
   .iconsOfthree {
+  margin-left: -3px;
     display: flex;
     justify-content: space-evenly;
     width: 50%;

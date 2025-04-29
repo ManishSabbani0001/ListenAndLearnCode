@@ -90,10 +90,13 @@ function App() {
             <p id="comment">Your pic is a hero level</p>
             <p id="time">30minutes ago</p> 
             <div className="Mini-container">
+            <div id="profileText">
             <div id="div-img">
             <img src={logo1} alt="imgpic" id='profile'></img></div>
-            <p id="txt">Sabbani Manish</p>
+            <p id="txt">Sabbani Manish</p></div>
+            <div id="ThreeDotsIcon">
             <BsThreeDotsVertical id="icon1"/>
+          </div>
           </div>
           <div>
            <img src={logo11} alt="imgpic1" id="profile1"></img>
@@ -113,10 +116,13 @@ function App() {
             <p id="comment">Wow usa tour enjoy cheyi mama..</p>
             <p id="time">5minutes ago</p> 
             <div className="Mini-container">
+            <div id="profileText">
             <div id="div-img">
             <img src={logo1} alt="imgpic" id='profile'></img></div>
-            <p id="txt">Sabbani Manish</p>
+            <p id="txt">Sabbani Manish</p></div>
+            <div id="ThreeDotsIcon">
             <BsThreeDotsVertical id="icon1"/>
+          </div>
           </div>
           <div>
            <img src={logo9} alt="imgpic1" id="profile1"></img>
