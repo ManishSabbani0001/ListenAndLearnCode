@@ -34,15 +34,15 @@
   .div-status {
     margin-top: 5px;
     margin-left: 5px;
-    height: 80px;
-    width: 84px;
+    height: 100px;
+    width: 104px;
     border: 2px solid black;
     border-radius: 50%;
   }
   #status {
     margin: 0;
-    height: 80px;
-    width: 84px;
+    height: 100px;
+    width: 104px;
     /* border: 1px solid black; */
     border-radius: 50%;
   }
