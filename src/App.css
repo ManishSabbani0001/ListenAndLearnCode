@@ -103,7 +103,7 @@
     justify-content: space-between;
   }
   .iconsOfthree {
-  margin-left: -3px;
+  margin-left: 0px;
     display: flex;
     justify-content: space-evenly;
     width: 50%;
@@ -129,6 +129,7 @@
     width: 30px;
   }
   #msgs{
+    margin-right: 0px;
     font-size: 11px;
   }
   #sendIcon {
