@@ -34,7 +34,7 @@
     display: flex;
     justify-content: flex-start;
     overflow: scroll;
-    overflow: hidden;
+    scrollbar-width: none;
     height: 105px;
   }
   .div-status {
@@ -99,12 +99,12 @@
     width: 100%;
   }
   .threeIcons {
-    margin-left: 0;
+    margin: 0;
     display: flex;
     justify-content: space-between;
   }
   .iconsOfthree {
-  margin-left: 0px;
+    left: 0;
     display: flex;
     justify-content: space-evenly;
     width: 50%;
