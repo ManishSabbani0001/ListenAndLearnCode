@@ -39,12 +39,14 @@ h2 {
 }  
 #cc {
     border-radius: 10px;
+    height: 100px;
 }
 .slick-arrow.slick-prev,
 .slick-arrow.slick-next {
   background-color: black;
-  height: 100px;
-  width: 50px;
+  height: 50px;
+  width: 20px;
+  margin-top: -30px;
 }
 }
 
