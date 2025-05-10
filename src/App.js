@@ -109,16 +109,16 @@ function App() {
             <div>
        <Slider {...settings}>
          <div>
-            <img src={logo11} alt="imgpic1" height='320' width='300'></img>
+            <img src={logo11} alt="imgpic1" height='400' width='100%'></img>
          </div>
         <div>
-           <img src={logo2} alt="imgpic1" height='320' width='300'></img>
+           <img src={logo2} alt="imgpic1" height='400' width='100%'></img>
         </div>
          <div>
-           <img src={logo3} alt="imgpic1" height='320' width='300'></img>
+           <img src={logo3} alt="imgpic1" height='400' width='100%'></img>
          </div>
          <div>
-           <img src={logo4} alt="imgpic1" height='320' width='300'></img>
+           <img src={logo4} alt="imgpic1" height='400' width='100%'></img>
          </div>
        </Slider><br/>
      </div>
