@@ -96,8 +96,19 @@
     width: 23px;
   }
   #profile1 {
+    height: 400px;
     width: 100%;
   }
+  .slick-dots {
+   margin-top: -30px;
+  }
+  .slick-dots li {
+     width: 0%;
+  }
+  .slick-dots li.slick-active button:before {
+    color: blue;
+  }
+  
   .threeIcons {
     margin: 0;
     display: flex;
@@ -108,8 +119,7 @@
     display: flex;
     justify-content: space-evenly;
     width: 50%;
-    height: 30px;
-    
+    height: 30px; 
   }
   .rightIcon {
     display: flex;
@@ -204,5 +214,6 @@
   #f_icon {
     margin-top: 9px;
     margin-bottom: 8px;
+    cursor: pointer;
   }
 }
