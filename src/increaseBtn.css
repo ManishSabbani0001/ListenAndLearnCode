@@ -1,0 +1,8 @@
+.iconNum {
+    display: flex;
+    justify-content: flex-start;
+}
+#number {
+    margin-top: 8px;
+    font-size: 15px;
+}

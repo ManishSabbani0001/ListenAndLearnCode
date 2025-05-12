@@ -24,6 +24,8 @@ import logo11 from './Assets/img11.jpeg'
 import logo12 from './Assets/img17.jpeg'
 import logo13 from './Assets/reelicon.png'
 import './App.css';
+import './increaseBtn.js'
+import MyComponent from "./increaseBtn.js";
 function App() {
   const settings = {
     dots: true,
@@ -85,7 +87,10 @@ function App() {
            </div>
            <div className="threeIcons">
            <div className="iconsOfthree">
-           <FaRegHeart id="heartIcon" /><p id="likes">7,002</p>
+           {/* <FaRegHeart id="heartIcon" /><p id="likes">7,002</p> */}
+           <div>
+           <MyComponent/>
+           </div>
            <BiMessageRounded id="msgIcon" /><p id="msgs">49</p>
           <LuSend id="sendIcon"/><p id="msgs">20</p></div>
            <div className="rightIcon">
@@ -120,11 +125,14 @@ function App() {
          <div>
            <img src={logo4} alt="imgpic1" height='400' width='100%'></img>
          </div>
+         <div>
+            <img src={logo12} alt="imgpic1" height='400' width='100%'></img>
+         </div>
        </Slider><br/>
      </div>
            <div className="threeIcons">
            <div className="iconsOfthree">
-           <FaRegHeart id="heartIcon" /><p id="likes">100</p>
+      <FaRegHeart id="heartIcon" /><p id="likes">100</p>
            <BiMessageRounded id="msgIcon" /><p id="msgs">15</p>
            <LuSend id="sendIcon"/><p id="msgs">10</p></div>
            <div className="rightIcon">
@@ -150,7 +158,7 @@ function App() {
            </div>
            <div className="threeIcons">
              <div className="iconsOfthree">
-           <FaRegHeart id="heartIcon" /><p id="likes">150</p>
+      <FaRegHeart id="heartIcon"/><p id="likes">150</p>
            <BiMessageRounded id="msgIcon" /><p id="msgs">50</p>
            <LuSend id="sendIcon"/><p id="msgs">30</p></div>
            <div className="rightIcon">
